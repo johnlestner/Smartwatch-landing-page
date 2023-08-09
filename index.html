@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Landing page </title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,intial-scale=1">
+	<link rel="stylesheet" type="text/css" href="mediaquries.css">
+	<style type="text/css">
+		*{
+			padding: 0rem; margin: 0rem; box-sizing: border-box;
+		}
+		html{
+			font-size: 62.5%;
+		}
+		.header{
+			width: 100%;
+			height:100vh;
+			background: url("062731634607891.jpg");
+			background-repeat: no-repeat;
+			background-size:100% 100%;
+			font-family: sans-serif;
+			position: relative;
+			overflow: hidden;
+
+
+		}
+
+		.nav{
+			width: 100%;
+			height: 10rem;
+			display: flex;
+			justify-content: space-around;
+			align-items: center;
+			position: relative;
+			
+		}
+		.logo img{
+			width: 17rem;
+			height: 17rem;
+		}
+		.menu a{
+			text-decoration: none;
+			color:white;
+			padding: 1rem 2rem;
+			font-size: 1.5rem;
+			position: relative;
+			transition: 0.3s;
+		}
+		.menu a:hover{
+			color: blue;
+		}
+		.htext{
+			max-width: 65rem;
+			position: absolute;
+			top: 60%;
+			left:50%;
+			transform: translate(-50%,-50%);
+			text-align: center;
+		}
+		.htext span{
+			color: white;
+			letter-spacing: 1rem;
+		}
+		.htext h1{
+			color: white;
+			font-size: 5rem;
+		}
+		.htext a{
+			font-size: 1rem;
+			text-decoration: none;
+			background: rgba(0,0,255,0.5);
+			color: white;
+			padding: 1rem 2rem;
+			letter-spacing: 0.5rem;
+
+		}
+		.htext a:hover{
+			background: transparent;
+			border: 0.1rem solid indianred;
+		}
+		#WTW{
+			width: 100%;
+			height: 70rem;
+			background-image: url('605841611271654.jpg');
+			background-repeat: no-repeat;
+			background-size: cover;
+			text-align: center;
+			padding: 15rem;
+			font-size: 3rem;
+			color: white;
+			opacity: 1;
+			overflow: scroll;
+
+		}
+		#Features{
+			width: 100%;
+			height: 80rem;
+			text-align: center;
+			padding:4rem;
+			opacity: 0.8;
+			font-size: 4rem;
+			background:black;
+			color: white;
+			word-spacing: 5rem;
+			letter-spacing: 1.5rem;
+			overflow: hidden;
+		}
+		#Features img{
+			width: 60%;
+			transition: 3s;
+		}
+		#Features img:hover{
+			width: 50%;
+		}
+		#Showcase{
+			width: 100%;
+			height: 50rem;
+			text-align: center;
+			font-size: 4rem;
+			position: relative;
+			background:#3E001F;
+			opacity: 1;
+			overflow: hidden;
+
+		}
+		#Showcase img{
+			width: 30%;
+			height: 70%;
+			transition: 1s;
+
+		}
+		#Showcase img:hover{
+			width: 40%;
+			height: 80%;
+		}
+		#Testimonial{
+			width: 100%;
+			height: 40rem;
+			position: relative;
+			overflow: hidden;
+			background:#512B81;
+		}
+		#Testimonial h1{
+			text-align: center;
+			font-size: 8rem;
+		}
+		#Testimonial img{
+				  position: absolute;
+				  top: 10rem;
+				  left:50%%;
+				  transition: 2s;
+		}
+		#Testimonial img:hover{
+			height: 75%;
+			width:45%%;
+		}
+		#footer{
+			width: 100%;
+			height: 25rem;
+			background-color:#FF90BB;
+			position: relative;
+			overflow: hidden;
+		}
+		#footer ul{
+			position: absolute;
+			left: 7%;
+			list-style: none;
+			margin: 3rem;
+
+		}
+		#footer ul li{
+			padding: 0.4rem;
+			font-size: 1.5rem;
+			transition: 0.5s;
+		}
+		#footer ul li:hover{
+			color: white;
+		}
+		#footer ul li h1{
+			color:white;
+			font-family: sans-serif;
+			font-size: 2.5rem;
+		}
+		#footer img:hover{
+			height: 15rem;
+
+		}
+		#signup{
+			width: 100%;
+			height: 25rem;
+			background:#F11A7B;
+			font-size: 2rem;
+			font-style: italic;
+		}
+		#signup input{
+			padding: 0.5rem 1rem;
+		}
+
+		.Contact{
+			width:100%; 
+			height:25rem;
+			background-color:#982176;
+			font-size: 1.7rem;
+		}
+
+		@media(max-width: 998px){
+			html{
+				font-size: 55%;
+
+			}
+		}
+		@media(max-width: 768px){
+			html{
+				font-size: 45%;
+			}
+		}
+
+	</style>
+</head>
+<body>
+	<header class="header" id="head">
+	<nav class="nav">
+		<div class="logo"><img src="gg3jsqzrkibt4tgnhkkm.webp"></div>
+		<div class="menu" id="menu">
+		<a href="#head">Home</a>
+		<a href="#WTW">Why This Watch</a>
+		<a href="#Features">Features</a>
+		<a href="#Showcase">Product Showcase</a>
+		<a href="#Testimonial">Testmonial</a>
+		<a href="#signup">Sign-up</a>
+	</div>
+	   	</nav>
+	<section class="htext">
+		<span>Enjoy</span>
+		<h1>The Best Smartwatch Brand</h1>
+		<br>
+		<a href="#">Shop Now</a>
+	</section>
+</header>
+	<div id="WTW">
+		<h1>Why This Watch</h1>
+		The main benefit of a smartwatch is convenience. With a smartwatch, you can quickly check the time or see incoming notifications without having to dig your phone out of your pocket. This feature can be extremely helpful when you’re in a meeting or otherwise occupied and don’t want to be disruptive by taking out your phone. And if you're someone who's always on the go, a smartwatch can be a great way to stay connected while keeping your hands free.
+		Another benefit of owning a smart watch is that it can help you stay active and healthy. Many smartwatches track your steps taken and calories burned throughout the day.
+		</div>
+		<div id="Features">
+			<h1>Our awesome Features</h1>
+			<img src="289451612727151.jpg">
+		</div>
+		<div id ="Showcase">
+			<h1 style="word-spacing: 2rem;">Product Showcase</h1>
+			<img src="4bc9ed88288087.5dd25b22b3e37.gif" height="70%" width="30%">
+			
+		</div>
+		<div id="Testimonial">
+			<h1>Testimonial</h1>
+			<img src="depositphotos_75337959-stock-photo-business-hand-pushing-customer-feedback.jpg" height="65%" width="40%">
+		</div>
+		<div id="signup">
+			<form action="https://formsubmit.co/johnlestner097@gmail.com" method="POST">
+			<legend><h3> Our Newsletter Sign-Up</h3></legend>
+			<br>
+			<br>
+			Enter Your Name:
+			<input type="text" name="name" id="name" placeholder="eg.$hrey@ $ingh@l">
+			<br>
+			<br>
+			Enter Your Email:
+			<input type="email" name="email" id="email" placeholder="eg.name123@gmail.com">
+			<br>
+			<br>
+			<input type="submit" value="submit">
+			<input type="reset" value="reset">
+		</form>
+
+		</div>
+		<div class="Contact">
+			<h3>Contact</h3>
+			TAGG Digital Customer Care No. 84480 10020
+			<br>
+Organization:  taggdigital.com
+<br>
+ALL INDIA NUMBER(S):<br> 
+84480 10020 (Customer Support, Mon-Sat 10am-6pm)<br>
+Website:  Official Website: <br>
+taggdigital.com <br>
+Emails: <br>
+tagg.support@imaginemarketingindia.com (Customer Support) <br>
+ info@imaginemarketingindia.com (Warranty Related Queries) <br>
+
+		</div>
+
+		<div id="footer">
+			<ul>
+				<li><h2>Company</h2></li>
+				<li>Teams</li>
+				<li>Customers</li>
+				<li>Contact</li>
+				
+
+			</ul>
+			<ul style="position: absolute; left:30%;">
+				<li><h2>Product</h2></li>
+				<li>Features</li>
+				<li>Pricing</li>
+				<li>Enterprise</li>
+				
+
+			</ul>
+			<ul style="position: absolute; left: 50%;">
+				<li><h2>Help</h2></li>
+				<li>Knowlwdge</li>
+				<li>Status</li>
+				<li>Community</li>
+				
+
+			</ul>
+			<section style="position: absolute; top:21rem; color:white;">
+			copyright &copy; M Limited
+
+		</section>
+		<a style="text-decoration: none; color: white; font-size: 1.5rem;" href="#head">Home</a>	
+		</div>
+</body>
+</html>
